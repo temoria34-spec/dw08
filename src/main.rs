@@ -1,7 +1,4 @@
-use dw08::sum_to;
-
 fn main() {
-    println!("Sum: {}", sum_to(5))
+    let result = dw08::sum_to(10);
+    println!("Sum to 10 is {}", result);
 }
-
-
